@@ -70,3 +70,4 @@ if __name__ == '__main__':
         if el.startswith('out'):
             os.remove(el)
     background_gif()
+    os.remove('result.mp4')
